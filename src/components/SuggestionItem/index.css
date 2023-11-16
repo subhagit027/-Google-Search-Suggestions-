@@ -1,0 +1,33 @@
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  list-style-type: none;
+}
+.para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 20px;
+  }
+}
+.btn-1 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.arrow {
+  height: 15px;
+  width: 15px;
+}
+@media screen and (min-width: 768px) {
+  .arrow {
+    height: 25px;
+    width: 25px;
+  }
+}
